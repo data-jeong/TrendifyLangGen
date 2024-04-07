@@ -1,5 +1,5 @@
 # TrendifyLangGen
-```
+```mermaid
 graph TD
     A[시작: 데이터 소스 식별] -->|Reddit, arXiv, GitHub 등| B[LangChain을 이용한 자동 데이터 수집]
     B --> C[데이터 전처리]
