@@ -1,5 +1,5 @@
 # TrendifyLangGen
-
+```
 graph TD
     A[시작: 데이터 소스 식별] -->|Reddit, arXiv, GitHub 등| B[LangChain을 이용한 자동 데이터 수집]
     B --> C[데이터 전처리]
@@ -21,6 +21,7 @@ graph TD
     O --> Q[GitHub CI/CD 파이프라인]
     P --> Q
     Q -->|스케쥴에 따라| B
+```
 
 
 프로젝트 실행 흐름 재정의
